@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #F7F6F2;
+}
+p{
+  line-height: 2;
+}
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: Arial ,sans-serif;
+  color: #F7F6F2;
+}
+h2{
+  font-size: 2.5rem;
+  font-family: Arial , sans-serif;
+  font-weight: normal;
+  color: #F7F6F2;
+  padding-bottom: 10px;
+}
+h3{
+  color: #4B6587;
+  font-family: 'Montserrat', sans-serif;
+}
+.top-container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIAubU_Yyz_SvuWBhUtsInO9fptvc8tIZY_Q&usqp=CAU);
+  background-size: cover;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.middle-container{
+  padding-top: 70px;
+  background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq);
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.logger,.registerer{
+  background-color: black;
+  width: 25%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+}
+.registerer{
+  padding-bottom: 40px;
+}
+.logger{
+  padding-bottom: 25px;
+}
+.loginheader{
+  text-align: left;
+}
+.login,.register{
+  margin-bottom: 20px;
+  width: 75%;
+  line-height: 2;
+  color:black;
+  background-color:white;
+  border: 1px solid #ced4da;
+  border-radius: 0;
+}
+
+.bottom-container{
+  background-color:black;
+  padding: 50px 0 20px;
+}
+.new{
+  text-decoration: none
+}
+.new:hover{
+  color: #F0E5CF;
+}
+a{
+  color: #F7F6F2;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #4B6587;
+}
+.copyrights{
+  color: #4B6587;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color:black;
+  font-size: 20px;
+  background: #F7F6F2;
+  padding: 5px 25px 5px 25px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F0E5CF;
+  text-decoration: none;
+}
+
+.menu-combomeal{
+    margin: 100px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
